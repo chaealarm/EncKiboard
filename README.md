@@ -1,5 +1,6 @@
 # EncKiboard
 Arduino pro micro-12 MX keys with LED, 1 Encoder   
+![Alt text](/images/pcb_model.PNG)   
 Designed in Kicad
 
 ## Parts
