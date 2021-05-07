@@ -5,9 +5,8 @@ Designed in Kicad
 ## Parts
 1 x Arduino pro micro   
 2 x 4094 IC(SO-16 package)   
-12 x MX compatible Key   
-1 x EC11 encoder   
-1 x Encoder knob   
+12 x MX compatible Key(and keycap)   
+1 x EC11 encoder(and knob)
 14 x LED(3mm, could be replaced to 1206(3216 metric)SMD LED)   
 14 x 300 Ohm 1206(3216 metric) SMD resistor   
 12 x 1N4148 SMD diode   
