@@ -69,50 +69,6 @@ F 3 "" H 7000 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:DIODE D3
-U 1 1 6095CBFC
-P 6600 2100
-F 0 "D3" H 6600 1835 50  0000 C CNN
-F 1 "DIODE" H 6600 1926 50  0000 C CNN
-F 2 "Diode_SMD:D_MELF_Handsoldering" H 6600 2100 50  0001 C CNN
-F 3 "~" H 6600 2100 50  0001 C CNN
-	1    6600 2100
-	-1   0    0    1   
-$EndComp
-$Comp
-L pspice:DIODE D4
-U 1 1 6095E0B0
-P 6600 3000
-F 0 "D4" H 6600 2735 50  0000 C CNN
-F 1 "DIODE" H 6600 2826 50  0000 C CNN
-F 2 "Diode_SMD:D_MELF_Handsoldering" H 6600 3000 50  0001 C CNN
-F 3 "~" H 6600 3000 50  0001 C CNN
-	1    6600 3000
-	-1   0    0    1   
-$EndComp
-$Comp
-L pspice:DIODE D5
-U 1 1 6095E37A
-P 6600 3850
-F 0 "D5" H 6600 3585 50  0000 C CNN
-F 1 "DIODE" H 6600 3676 50  0000 C CNN
-F 2 "Diode_SMD:D_MELF_Handsoldering" H 6600 3850 50  0001 C CNN
-F 3 "~" H 6600 3850 50  0001 C CNN
-	1    6600 3850
-	-1   0    0    1   
-$EndComp
-$Comp
-L pspice:DIODE D6
-U 1 1 6095E911
-P 6600 4650
-F 0 "D6" H 6600 4385 50  0000 C CNN
-F 1 "DIODE" H 6600 4476 50  0000 C CNN
-F 2 "Diode_SMD:D_MELF_Handsoldering" H 6600 4650 50  0001 C CNN
-F 3 "~" H 6600 4650 50  0001 C CNN
-	1    6600 4650
-	-1   0    0    1   
-$EndComp
-$Comp
 L CherryMX:CherryMX_LED U5
 U 1 1 6096BC53
 P 8550 2150
@@ -157,50 +113,6 @@ F 3 "" H 8550 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:DIODE D7
-U 1 1 6096BC6B
-P 8150 2100
-F 0 "D7" H 8150 1835 50  0000 C CNN
-F 1 "DIODE" H 8150 1926 50  0000 C CNN
-F 2 "Diode_SMD:D_MELF_Handsoldering" H 8150 2100 50  0001 C CNN
-F 3 "~" H 8150 2100 50  0001 C CNN
-	1    8150 2100
-	-1   0    0    1   
-$EndComp
-$Comp
-L pspice:DIODE D8
-U 1 1 6096BC71
-P 8150 3000
-F 0 "D8" H 8150 2735 50  0000 C CNN
-F 1 "DIODE" H 8150 2826 50  0000 C CNN
-F 2 "Diode_SMD:D_MELF_Handsoldering" H 8150 3000 50  0001 C CNN
-F 3 "~" H 8150 3000 50  0001 C CNN
-	1    8150 3000
-	-1   0    0    1   
-$EndComp
-$Comp
-L pspice:DIODE D9
-U 1 1 6096BC77
-P 8150 3850
-F 0 "D9" H 8150 3585 50  0000 C CNN
-F 1 "DIODE" H 8150 3676 50  0000 C CNN
-F 2 "Diode_SMD:D_MELF_Handsoldering" H 8150 3850 50  0001 C CNN
-F 3 "~" H 8150 3850 50  0001 C CNN
-	1    8150 3850
-	-1   0    0    1   
-$EndComp
-$Comp
-L pspice:DIODE D10
-U 1 1 6096BC7D
-P 8150 4650
-F 0 "D10" H 8150 4385 50  0000 C CNN
-F 1 "DIODE" H 8150 4476 50  0000 C CNN
-F 2 "Diode_SMD:D_MELF_Handsoldering" H 8150 4650 50  0001 C CNN
-F 3 "~" H 8150 4650 50  0001 C CNN
-	1    8150 4650
-	-1   0    0    1   
-$EndComp
-$Comp
 L CherryMX:CherryMX_LED U9
 U 1 1 609708A7
 P 10050 2150
@@ -243,50 +155,6 @@ F 2 "CherryMX_PCB_LED:CherryMX_1.00u_PCB_LED" H 10050 4700 50  0001 C CNN
 F 3 "" H 10050 4700 50  0001 C CNN
 	1    10050 4700
 	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:DIODE D11
-U 1 1 609708BF
-P 9650 2100
-F 0 "D11" H 9650 1835 50  0000 C CNN
-F 1 "DIODE" H 9650 1926 50  0000 C CNN
-F 2 "Diode_SMD:D_MELF_Handsoldering" H 9650 2100 50  0001 C CNN
-F 3 "~" H 9650 2100 50  0001 C CNN
-	1    9650 2100
-	-1   0    0    1   
-$EndComp
-$Comp
-L pspice:DIODE D12
-U 1 1 609708C5
-P 9650 3000
-F 0 "D12" H 9650 2735 50  0000 C CNN
-F 1 "DIODE" H 9650 2826 50  0000 C CNN
-F 2 "Diode_SMD:D_MELF_Handsoldering" H 9650 3000 50  0001 C CNN
-F 3 "~" H 9650 3000 50  0001 C CNN
-	1    9650 3000
-	-1   0    0    1   
-$EndComp
-$Comp
-L pspice:DIODE D13
-U 1 1 609708CB
-P 9650 3850
-F 0 "D13" H 9650 3585 50  0000 C CNN
-F 1 "DIODE" H 9650 3676 50  0000 C CNN
-F 2 "Diode_SMD:D_MELF_Handsoldering" H 9650 3850 50  0001 C CNN
-F 3 "~" H 9650 3850 50  0001 C CNN
-	1    9650 3850
-	-1   0    0    1   
-$EndComp
-$Comp
-L pspice:DIODE D14
-U 1 1 609708D1
-P 9650 4650
-F 0 "D14" H 9650 4385 50  0000 C CNN
-F 1 "DIODE" H 9650 4476 50  0000 C CNN
-F 2 "Diode_SMD:D_MELF_Handsoldering" H 9650 4650 50  0001 C CNN
-F 3 "~" H 9650 4650 50  0001 C CNN
-	1    9650 4650
-	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	7200 4650 7500 4650
@@ -394,7 +262,6 @@ Wire Wire Line
 	5900 2450 5900 3000
 Wire Wire Line
 	5900 3000 6400 3000
-Connection ~ 6400 3000
 Wire Wire Line
 	9450 3850 9450 4150
 Wire Wire Line
@@ -412,7 +279,6 @@ Wire Wire Line
 	5800 3850 6400 3850
 Wire Wire Line
 	5800 2550 5800 3850
-Connection ~ 6400 3850
 Wire Wire Line
 	9450 4650 9450 5050
 Wire Wire Line
@@ -432,7 +298,6 @@ Wire Wire Line
 	5700 2650 5700 4650
 Wire Wire Line
 	5700 4650 6400 4650
-Connection ~ 6400 4650
 $Comp
 L Device:Rotary_Encoder_Switch SW1
 U 1 1 609913C4
@@ -1134,4 +999,160 @@ Wire Wire Line
 Wire Wire Line
 	1750 2550 1750 3550
 Connection ~ 3550 3550
+$Comp
+L Diode:SM4004 D3
+U 1 1 60969576
+P 6650 2100
+F 0 "D3" H 6650 2317 50  0000 C CNN
+F 1 "1N4148_SMD" H 6650 2226 50  0000 C CNN
+F 2 "Diode_SMD:D_MELF_Handsoldering" H 6650 1925 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" H 6650 2100 50  0001 C CNN
+	1    6650 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2100 6500 2100
+$Comp
+L Diode:SM4004 D7
+U 1 1 609DB3F0
+P 8200 2100
+F 0 "D7" H 8200 2317 50  0000 C CNN
+F 1 "1N4148_SMD" H 8200 2226 50  0000 C CNN
+F 2 "Diode_SMD:D_MELF_Handsoldering" H 8200 1925 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" H 8200 2100 50  0001 C CNN
+	1    8200 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 2100 8050 2100
+$Comp
+L Diode:SM4004 D11
+U 1 1 609E3E40
+P 9700 2100
+F 0 "D11" H 9700 2317 50  0000 C CNN
+F 1 "1N4148_SMD" H 9700 2226 50  0000 C CNN
+F 2 "Diode_SMD:D_MELF_Handsoldering" H 9700 1925 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" H 9700 2100 50  0001 C CNN
+	1    9700 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 2100 9550 2100
+$Comp
+L Diode:SM4004 D4
+U 1 1 609ED46E
+P 6650 3000
+F 0 "D4" H 6650 3217 50  0000 C CNN
+F 1 "1N4148_SMD" H 6650 3126 50  0000 C CNN
+F 2 "Diode_SMD:D_MELF_Handsoldering" H 6650 2825 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" H 6650 3000 50  0001 C CNN
+	1    6650 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3000 6500 3000
+$Comp
+L Diode:SM4004 D8
+U 1 1 609F5FB0
+P 8200 3000
+F 0 "D8" H 8200 3217 50  0000 C CNN
+F 1 "1N4148_SMD" H 8200 3126 50  0000 C CNN
+F 2 "Diode_SMD:D_MELF_Handsoldering" H 8200 2825 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" H 8200 3000 50  0001 C CNN
+	1    8200 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 3000 8050 3000
+$Comp
+L Diode:SM4004 D5
+U 1 1 609FE9CA
+P 6650 3850
+F 0 "D5" H 6650 4067 50  0000 C CNN
+F 1 "1N4148_SMD" H 6650 3976 50  0000 C CNN
+F 2 "Diode_SMD:D_MELF_Handsoldering" H 6650 3675 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" H 6650 3850 50  0001 C CNN
+	1    6650 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3850 6500 3850
+$Comp
+L Diode:SM4004 D9
+U 1 1 60A10077
+P 8200 3850
+F 0 "D9" H 8200 4067 50  0000 C CNN
+F 1 "1N4148_SMD" H 8200 3976 50  0000 C CNN
+F 2 "Diode_SMD:D_MELF_Handsoldering" H 8200 3675 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" H 8200 3850 50  0001 C CNN
+	1    8200 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 3850 8050 3850
+$Comp
+L Diode:SM4004 D12
+U 1 1 60A22103
+P 9700 3000
+F 0 "D12" H 9700 3217 50  0000 C CNN
+F 1 "1N4148_SMD" H 9700 3126 50  0000 C CNN
+F 2 "Diode_SMD:D_MELF_Handsoldering" H 9700 2825 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" H 9700 3000 50  0001 C CNN
+	1    9700 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 3000 9550 3000
+$Comp
+L Diode:SM4004 D13
+U 1 1 60A2ADA3
+P 9700 3850
+F 0 "D13" H 9700 4067 50  0000 C CNN
+F 1 "1N4148_SMD" H 9700 3976 50  0000 C CNN
+F 2 "Diode_SMD:D_MELF_Handsoldering" H 9700 3675 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" H 9700 3850 50  0001 C CNN
+	1    9700 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 3850 9550 3850
+$Comp
+L Diode:SM4004 D6
+U 1 1 60A33B5F
+P 6650 4650
+F 0 "D6" H 6650 4867 50  0000 C CNN
+F 1 "1N4148_SMD" H 6650 4776 50  0000 C CNN
+F 2 "Diode_SMD:D_MELF_Handsoldering" H 6650 4475 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" H 6650 4650 50  0001 C CNN
+	1    6650 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4650 6500 4650
+$Comp
+L Diode:SM4004 D10
+U 1 1 60A3CDA3
+P 8200 4650
+F 0 "D10" H 8200 4867 50  0000 C CNN
+F 1 "1N4148_SMD" H 8200 4776 50  0000 C CNN
+F 2 "Diode_SMD:D_MELF_Handsoldering" H 8200 4475 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" H 8200 4650 50  0001 C CNN
+	1    8200 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 4650 8050 4650
+$Comp
+L Diode:SM4004 D14
+U 1 1 60A45B3B
+P 9700 4650
+F 0 "D14" H 9700 4867 50  0000 C CNN
+F 1 "1N4148_SMD" H 9700 4776 50  0000 C CNN
+F 2 "Diode_SMD:D_MELF_Handsoldering" H 9700 4475 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" H 9700 4650 50  0001 C CNN
+	1    9700 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 4650 9550 4650
 $EndSCHEMATC
