@@ -91,7 +91,7 @@ void loop() {
         {
           Keyboard.press('/');
           Keyboard.releaseAll();
-          delay(50);
+          delay(150);
         }
 
         switch(key){
@@ -101,7 +101,7 @@ void loop() {
                   break;
           case 3: Keyboard.press('t');
                   Keyboard.releaseAll();
-                  delay(50);
+                  delay(150);
                   Keyboard.println("cotal");
                   break;
           case 4: Keyboard.print("w ");
@@ -131,62 +131,62 @@ void loop() {
         {
           case 1: Keyboard.press('/');
                   Keyboard.releaseAll();
-                  delay(50);
+                  delay(150);
                   Keyboard.println("c"); 
                   break;
           case 2: Keyboard.press('t');
                   Keyboard.releaseAll();
-                  delay(50);
+                  delay(150);
                   Keyboard.println("dkssudgktpdy!");
                   break;
           case 3: Keyboard.press('t');
                   Keyboard.releaseAll();
-                  delay(50);
+                  delay(150);
                   Keyboard.println("cotal");
                   break;
           case 4: Keyboard.press('t');
                   Keyboard.releaseAll();
-                  delay(50);
+                  delay(150);
                   Keyboard.println("djtjdhtpdy!");
                   break;
           case 5: Keyboard.press('t');
                   Keyboard.releaseAll();
-                  delay(50);
+                  delay(150);
                   Keyboard.println("gjrjr...");
                   break;
-          case 6: Keyboard.press('t');
-                  Keyboard.releaseAll();
-                  delay(50);
+          case 6: Keyboard.print("t");
+                   Keyboard.releaseAll();
+                   delay(200);
                   Keyboard.println("tkffuwntpdy!");
                   break;
           case 7: Keyboard.press('t');
                   Keyboard.releaseAll();
-                  delay(50);
+                  delay(150);
                   Keyboard.println("rhakdnjdy!");
                   break;
           case 8: Keyboard.press('t');
                   Keyboard.releaseAll();
-                  delay(50);
+                  delay(150);
                   Keyboard.println("aldksgody");
                   break;
           case 9: Keyboard.press('t');
                   Keyboard.releaseAll();
-                  delay(50);
+                  delay(150);
                   Keyboard.println("rhoscksgdkdy?");
                   break;
-          case 10: Keyboard.press('t');
+          case 10: Keyboard.print("t");
                    Keyboard.releaseAll();
-                   delay(50);
+                   delay(200);
                    Keyboard.println(" tjsanf~");
                   break;
           case 11: Keyboard.press('t');
                   Keyboard.releaseAll();
-                  delay(50);
+                  delay(150);
                   Keyboard.println("skan tkqslek~~");
                   break;
           case 12: Keyboard.press('t');
                   Keyboard.releaseAll();
-                  delay(50);
+                  delay(150);
                   Keyboard.println("anssla... wnantuTskdy??");
                   break;
         }
