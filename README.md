@@ -1,17 +1,5 @@
-# EncKiboard
-Arduino pro micro-12 MX keys with LED, 1 Encoder   
+# EncKiboard V3
+RP2040, MX keys with LED, 1 Encoder   
 ![Alt text](/images/pcb_model.PNG)   
-Designed in Kicad
+Designed in EasyEDA
 
-## Parts
-1 x Arduino pro micro   
-2 x 4094 IC(SO-16 package)   
-12 x MX compatible Key(and keycap)   
-1 x EC11 encoder(and knob)   
-14 x LED(3mm, could be replaced to 1206(3216 metric)SMD LED)   
-14 x 300 Ohm 1206(3216 metric) SMD resistor   
-12 x 1N4148 SMD diode   
-
-## Symbol, Footprint Libraries
-Arduino pro micro : https://github.com/Biacco42/ProMicroKiCad   
-MX Keys : https://github.com/sszczep/kicad-libraries   
