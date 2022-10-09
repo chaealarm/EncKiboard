@@ -5,3 +5,5 @@ RP2040, MX keys with LED, 1 Encoder
 
 Designed in EasyEDA
 
+## See also
+Arduino Board Library(Generic RP2040) : https://github.com/earlephilhower/arduino-pico
