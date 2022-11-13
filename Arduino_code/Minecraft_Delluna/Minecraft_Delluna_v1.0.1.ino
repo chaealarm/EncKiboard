@@ -8,6 +8,7 @@ char key=0; // 눌려진 키(0~12)
 char tkey=0; // 과거 눌려진 키(0~12)
 char mode=0; // 모드
 unsigned char kchat=254; // 키 채터링 방지용
+unsigned char ekchat=0;
 char ledmat[12]={1,5,9,2,6,10,3,7,11,4,8,12}; // LED 포트 순서를 키 순서에 따라 매핑
 char koflag=0; // /r /w 시 자동 한영변환을 위한 플래그
 
@@ -53,6 +54,7 @@ void setup() {
 }
 
 void loop() {
+  int i;
   // enc
   estat=digitalRead(1);
   if(estat!=testat)
@@ -78,6 +80,7 @@ void loop() {
   
   // button
   if(!kchat) key=keypad();
+
   if(key!=tkey)
   {
     if(key)
@@ -212,11 +215,71 @@ void loop() {
                   break;
         }
       }
+      else if(mode==3 && key)
+      {
+        switch(key)
+        {
+          case 1: Keyboard.press('7'); 
+                  break;
+          case 2: Keyboard.press('8'); 
+                  break;
+          case 3: Keyboard.press('9'); 
+                  break;
+          case 4: Keyboard.press('4'); 
+                  break;              
+          case 5: Keyboard.press('5'); 
+                  break;
+          case 6: Keyboard.press('6'); 
+                  break;
+          case 7: Keyboard.press('1'); 
+                  break;
+          case 8: Keyboard.press('2'); 
+                  break;
+          case 9: Keyboard.press('3'); 
+                  break;
+          case 10: Keyboard.press(KEY_BACKSPACE); 
+                  break;
+          case 11: Keyboard.press('0'); 
+                  break;
+          case 12: Keyboard.press(KEY_RETURN);
+                  break;
+        }
+      }
 
     }
     kchat=254;
     if(!key) digitalWrite(ledmat[tkey-1]+8,LOW);
     tkey=key;
+    if(!key && mode==3)
+    {
+      Keyboard.releaseAll();
+      for(i=9;i<=20;i++)
+      {
+        digitalWrite(i,LOW);
+      }
+    }
+
   }
   if(kchat && keypad()!=key) kchat--;
+  if(!digitalRead(23))
+    ekchat=254;
+  if(ekchat && digitalRead(23))
+  {
+    ekchat--;
+    if(!ekchat)
+    {
+      if(mode!=3)
+      {
+        digitalWrite(21,HIGH);
+        digitalWrite(22,HIGH);
+        mode=3;
+      }
+      else
+      {
+        digitalWrite(21,LOW);
+        digitalWrite(22,HIGH);
+        mode=0;
+      }
+    }
+  }
 }
